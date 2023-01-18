@@ -1,0 +1,21 @@
+#imgUpload {
+	margin: 24px;
+}
+
+.FourRow {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 3rem;
+}
+
+.submitBtn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.subData {
+	width: 20rem;
+}

@@ -1,0 +1,25 @@
+#RR {
+	height: 90vh !important;
+	overflow-y: scroll !important;
+}
+
+#RR::-webkit-scrollbar {
+	width: 5px !important;
+	height: 5px !important;
+
+}
+
+#RR::-webkit-scrollbar-thumb {
+	background-color: rgb(61, 58, 58) !important;
+	border-radius: 20px !important;
+
+}
+
+.container {
+	position: static !important;
+}
+
+.btnS {
+	display: flex;
+	gap: 1rem;
+}

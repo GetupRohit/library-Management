@@ -1,0 +1,31 @@
+#bookRentComp {
+	overflow-y: scroll;
+}
+
+#bookRentComp::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+
+}
+
+#bookRentComp::-webkit-scrollbar-thumb {
+	background-color: rgb(61, 58, 58);
+	border-radius: 20px;
+
+}
+
+#CartEdit {
+	overflow-y: scroll;
+}
+
+#CartEdit::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+
+}
+
+#CartEdit::-webkit-scrollbar-thumb {
+	background-color: rgb(61, 58, 58);
+	border-radius: 20px;
+
+}

@@ -1,0 +1,130 @@
+.deshboad {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: static !important;
+	/* flex-grow: end; */
+}
+
+.containerd {
+	width: 100%;
+	height: 100%;
+	/* background-color: rgb(207, 152, 152); */
+	display: flex;
+	flex-direction: row;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	/* border-radius: 10px; */
+	position: static !important;
+}
+
+.left {
+	width: 20%;
+	height: 100%;
+	background-image: linear-gradient(68.4deg, rgba(99, 251, 215, 1) -0.4%, rgba(5, 222, 250, 1) 100.2%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	/* border-radius: 10px 0 0 10px; */
+}
+
+.img {
+	width: 10rem;
+	height: 10rem;
+	background-color: aliceblue;
+	border-radius: 50%;
+}
+
+.right {
+	width: 80%;
+	height: 100%;
+	background-size: 100% 100%;
+	background-position: 0px 0px;
+	background-color: rgba(202, 201, 198, 0);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+	overflow-y: scroll;
+	/* border-radius: 0px 10px 10px 0px; */
+
+}
+
+#cart {
+	width: 90%;
+	height: 20rem;
+	background-color: rgb(165, 144, 144);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+	font-family: 'Prosto One', cursive;
+	gap: 4rem;
+
+}
+
+.b_img {
+	width: 5rem;
+	height: 5rem;
+	border-radius: 10px;
+}
+
+.right::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+
+}
+
+.right::-webkit-scrollbar-thumb {
+	background-color: rgb(61, 58, 58);
+	border-radius: 20px;
+
+}
+
+.b_name,
+.a_name,
+.name,
+.amount {
+	font-size: 1.5rem;
+}
+
+
+.img_div {
+	height: 7rem;
+	width: 5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.add_btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 1rem;
+
+}
+
+.add,
+.remove {
+	width: 2rem;
+	height: 2rem;
+	background-color: aliceblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	font-size: 1.5rem;
+	border-radius: 0.5rem;
+}
+
+#img_cart {
+	width: 20%;
+	/* background-position: center; */
+}
